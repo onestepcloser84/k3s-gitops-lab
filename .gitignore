@@ -43,3 +43,6 @@ logs/
 *.tar
 *.tar.gz
 *.tgz
+
+# Other files
+infra/docker/powerdns/mysql-init/create-dbs.sql

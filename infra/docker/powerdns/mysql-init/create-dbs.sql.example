@@ -1,0 +1,9 @@
+CREATE USER IF NOT EXISTS 'pdns'@'%' IDENTIFIED BY 'change-me-to-env-variable-DB_PASSWORD';
+
+CREATE DATABASE IF NOT EXISTS pdns;
+GRANT ALL PRIVILEGES ON pdns.* TO 'pdns'@'%';
+
+CREATE DATABASE IF NOT EXISTS powerdnsadmin;
+GRANT ALL PRIVILEGES ON powerdnsadmin.* TO 'pdns'@'%';
+
+FLUSH PRIVILEGES;
