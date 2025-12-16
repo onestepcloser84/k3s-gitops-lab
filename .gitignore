@@ -1,0 +1,45 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.envrc
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.csr
+kubeconfig
+kubeconfig.*
+**/kubeconfig
+**/kubeconfig.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+crash.*.log
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
